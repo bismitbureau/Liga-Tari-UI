@@ -33,6 +33,10 @@ Route::get('/contact-us', function () {
 
 // Route::get('/', 'PageController@index')->name('index');
 
+Route::get('/', function () {
+  return view('index');
+});
+
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
   Route::get('/login', 'AdminAuth\LoginController@showLoginForm')->name('login');
   Route::post('/login', 'AdminAuth\LoginController@login');
