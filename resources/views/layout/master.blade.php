@@ -13,18 +13,19 @@
         <!-- Materialize CSS -->
         <!-- <link rel="stylesheet" href="{{ asset('css/vendor/materialize.min.css') }}"> -->
         <!-- Flat UI CSS -->
-        <link rel="stylesheet" href="{{ asset('css/vendor/flat-ui.min.css') }}">
-        <!-- Fontawesome CSS -->
-        <link rel="stylesheet" href="{{ asset('css/vendor/all.min.css') }}">
+        <!-- <link rel="stylesheet" href="{{ asset('css/vendor/flat-ui.min.css') }}"> -->
+        <!-- Fontawesome CSS
+        <link rel="stylesheet" href="{{ asset('css/vendor/all.min.css') }}"> -->
         <!-- App CSS -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('css/style.css') }}">
         <title>Liga Tari Krida Budaya @yield('title')</title>
     </head>
     <body>
 
         @include('layout/_nav')
-        
+
         @yield('content')
 
         @include('layout/_footer')

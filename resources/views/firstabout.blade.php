@@ -1,10 +1,9 @@
 @extends('layout.master')
 <link rel="stylesheet" type="text/css" href="{{ asset('css/firstabout.css') }}">
 
-<h1>HALO</h1>
 <section class="mt-6 py-4" style="background-color: #FDE25D">
     <div class="mb-4">
-        <h2 style="background-image: url({{ URL::asset('images/panah-judul.png') }}); z-index: 999; color: white">LIGA TARI MAHASISWA
+        <h2 style="background-image: url({{ URL::asset('images/panah-judul.png') }}); z-index: 999; color: white; padding: 1em; overflow-y: hidden;">LIGA TARI MAHASISWA
         UNIVERSITAS INDONESIA KRIDA BUDAYA</h2>
     </div>
     <div class="card container mx-auto my-auto shadow" style="border-radius: 48px">
@@ -15,7 +14,7 @@
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/5sDv75FJhGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
                             picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <p style="text-align: justify">Liga Tari Mahasiswa Universitas Indonesia Krida Budaya
+                    <p style="text-align: justify; color: black" class="py-4">Liga Tari Mahasiswa Universitas Indonesia Krida Budaya
                         is a student organization focusing on preserving and developing folklore dances and
                         music. Founded on February, 17th 1983, the group with great name of the country’s
                         leading university: Universitas Indonesia; and has been participating in various

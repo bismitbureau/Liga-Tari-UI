@@ -1,0 +1,31 @@
+.people-img {
+    width: 5em;
+    height: 40em;
+}
+
+@media only screen and (min-width: 992px) {
+    .people-img {
+        width: 100%;
+    }
+}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 492px) {
+    .people-img {
+        width: 100%;
+    }
+    /* img{
+      width: 75vw;
+      height: 30vh;
+    } */
+}
+
+.peoplename {
+    color: #20d0ff;
+    font-size: 27px;
+    font-weight: bold;
+    padding: 0px;
+    padding-top: 5px;
+}

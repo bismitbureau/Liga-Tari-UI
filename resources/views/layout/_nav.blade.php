@@ -10,7 +10,7 @@
 <div class="mt-5">
   <ul class="nav justify-content-center mt-5">
     <li class="nav-item mr-2 flex-collumn">
-      <a class="nav-link text-dark " href="#">
+      <a class="nav-link text-dark " href="/about">
         About
         <div id="kotak" class="ml-0 mr-1"></div>
       </a>
@@ -28,7 +28,7 @@
       </a>
     </li>
     <li class="nav-item mr-2">
-      <a class="nav-link text-dark" href="#">
+      <a class="nav-link text-dark" href="/contact-us">
       Contact
       <div id="kotak" class="ml-0 mr-1"></div>
       </a>
