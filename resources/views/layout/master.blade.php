@@ -18,8 +18,6 @@
         <link rel="stylesheet" href="{{ asset('css/vendor/all.min.css') }}">
         <!-- App CSS -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-        <!-- Custom CSS -->
-        <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('css/style.css') }}">
         
         <title>Liga Tari Krida Budaya @yield('title')</title>
     </head>
