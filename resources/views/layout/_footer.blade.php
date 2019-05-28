@@ -1,4 +1,6 @@
-<div class="bg-dark-grey" style="background: #102B3F;">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/_footer.css') }}">
+
+<div class="bg-dark-grey" style="background: #102B3F; color:white;">
   <div class="container-footer py-5">
     <div class="footer-content px-5">
       <div class="row pt-4 justify-content-between">
@@ -16,10 +18,10 @@
         <div class="col-sm-6 col-md-3">
           <h3 class="font-weight-bold">Links</h3>
           <ul class="list-unstyled">
-          <a href="https://www.instagram.com/kridabudaya/"><img src="{{ asset('images/instagram.png') }}"></a>
-          <a href="https://www.youtube.com/channel/UCgJzdrK4a9kosMM4T9MMEjA"> <img src="{{ asset('images/youtube.png') }}"></a>
-          <a href="https://www.facebook.com/ligatarikridabudaya"> <img src="{{ asset('images/facebook.png') }}"> </a>
-          <img src="{{ asset('images/twitter.png') }}">
+          <a href="https://www.instagram.com/kridabudaya/"><img src="{{ asset('images/instagram.png') }}" class="socmed"></a>
+          <a href="https://www.youtube.com/channel/UCgJzdrK4a9kosMM4T9MMEjA"> <img src="{{ asset('images/youtube.png') }}" class="socmed"></a>
+          <a href="https://www.facebook.com/ligatarikridabudaya"> <img src="{{ asset('images/facebook.png') }}" class="socmed"> </a>
+          <img src="{{ asset('images/twitter.png') }}" class="socmed">
           </ul>
         </div>
         <div class="col-md-3">
@@ -29,6 +31,9 @@
 
               </a></li>
               <li>Phone : +62 877 93462282 (Via)</li>
+              <li>Phone : +62 812 10246100 (Sheli)</li>
+
+
           </ul>
         </div>
       </div>
