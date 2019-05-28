@@ -45,6 +45,10 @@ Route::get('/gallery', function () {
 //   return view('ligtarforhire');
 // });
 
+// Route::get('/galeriprev', function () {
+//   return view('galeritarian');
+// });
+
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
   Route::get('/login', 'AdminAuth\LoginController@showLoginForm')->name('login');
