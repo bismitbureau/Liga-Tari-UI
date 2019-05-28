@@ -1,4 +1,6 @@
-<div class="bg-dark-grey" style="background: #102B3F;">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/_footer.css') }}">
+
+<div class="bg-dark-grey" style="background: #102B3F; color:white;">
   <div class="container-footer py-5">
     <div class="footer-content px-5">
       <div class="row pt-4 justify-content-between">
@@ -29,6 +31,9 @@
 
               </a></li>
               <li>Phone : +62 877 93462282 (Via)</li>
+              <li>Phone : +62 812 10246100 (Sheli)</li>
+
+
           </ul>
         </div>
       </div>
