@@ -28,3 +28,14 @@
     background: #EFFF3B;
     border-radius: 8px;
 }
+
+#assetline {
+    width: 200px;
+    height: 4px;
+    top: 4697px;
+    left: 20px;
+    z-index: 20081;
+    margin: 1em auto;
+    background: #EFFF3B;
+border-radius: 8px;
+}

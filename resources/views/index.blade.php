@@ -5,5 +5,9 @@
 @extends('firstcarousel')
 
 @section('content')
+
+<!-- @extends('firstcarousel') -->
+
+
 @endsection
 
