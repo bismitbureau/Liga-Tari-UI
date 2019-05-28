@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="{{ asset('css/vendor/all.min.css') }}">
         <!-- App CSS -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-        <title>@yield('title')</title>
+        <title>Liga Tari Krida Budaya @yield('title')</title>
     </head>
     <body>
         @include('layout/_nav')
