@@ -11,9 +11,25 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('firstcarousel');
+});
+
+Route::get('/about', function () {
+    return view('firstabout');
+});
+
+Route::get('/timeline', function () {
+    return view('timeline');
+});
+
+Route::get('/people', function () {
+    return view('timeline');
+});
+
+Route::get('/contact-us', function () {
+    return view('contactus');
+});
 
 // Route::get('/', 'PageController@index')->name('index');
 
