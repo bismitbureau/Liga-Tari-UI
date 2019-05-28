@@ -1,0 +1,27 @@
+.navbar {
+    min-height: 150px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 150px;
+  line-height: 150px;
+}
+
+.btn{
+    border-radius: 50px;
+    border-color: #17a2b8;
+    color: #17a2b8;
+}
+
+.btn:hover{
+    border-color: #17a2b8;
+    color: white;
+}
+
+#kotak {
+    width: 100px;
+    height: 5px;
+    background: #EFFF3B;
+    border-radius: 8px;
+}

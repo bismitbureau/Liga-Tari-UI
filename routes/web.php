@@ -15,7 +15,11 @@
 //     return view('welcome');
 // });
 
-Route::get('/', 'PageController@index')->name('index');
+// Route::get('/', 'PageController@index')->name('index');
+
+Route::get('/', function () {
+  return view('index');
+});
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
   Route::get('/login', 'AdminAuth\LoginController@showLoginForm')->name('login');
