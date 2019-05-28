@@ -1,11 +1,14 @@
 .navbar {
     min-height: 150px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar-brand {
   padding: 0 15px;
-  height: 150px;
-  line-height: 150px;
+  height: 100px;
+  line-height: 100px;
 }
 
 .btn{

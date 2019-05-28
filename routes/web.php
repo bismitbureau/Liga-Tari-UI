@@ -37,6 +37,12 @@ Route::get('/', function () {
   return view('index');
 });
 
+Route::get('/gallery', function () {
+  return view('gallery');
+});
+
+
+
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
   Route::get('/login', 'AdminAuth\LoginController@showLoginForm')->name('login');
   Route::post('/login', 'AdminAuth\LoginController@login');
