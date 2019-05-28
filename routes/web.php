@@ -41,6 +41,9 @@ Route::get('/gallery', function () {
   return view('gallery');
 });
 
+// Route::get('/hire', function () {
+//   return view('ligtarforhire');
+// });
 
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {

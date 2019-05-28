@@ -7,7 +7,6 @@
     <img src="img/ligtar1.png" class="mt-0" alt="">
   </a>
 
-
 <div class="mt-5">
   <ul class="nav justify-content-center mt-5">
     <li class="nav-item mr-2 flex-collumn">
