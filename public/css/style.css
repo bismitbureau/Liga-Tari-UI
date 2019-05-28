@@ -1,23 +1,28 @@
+body {
+    padding-top: 150px;
+}
+
 .navbar {
     min-height: 150px;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
 }
 
 .navbar-brand {
-  padding: 0 15px;
-  height: 100px;
-  line-height: 100px;
+    padding: 0 15px;
+    height: 100px;
+    line-height: 100px;
 }
 
-.btn{
+.btn {
     border-radius: 50px;
     border-color: #17a2b8;
     color: #17a2b8;
 }
 
-.btn:hover{
+.btn:hover {
     border-color: #17a2b8;
     color: white;
 }
@@ -37,5 +42,5 @@
     z-index: 20081;
     margin: 1em auto;
     background: #EFFF3B;
-border-radius: 8px;
+    border-radius: 8px;
 }
