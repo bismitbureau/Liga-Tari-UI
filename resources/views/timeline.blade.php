@@ -1,11 +1,11 @@
 @extends('layout.master')
 <link rel="stylesheet" type="text/css" href="{{ asset('css/timeline.css') }}">
 
-<h2 style="text-align: center" class="py-4">ACHIEVEMENTS</h2>
+<h2 style="text-align: center" class="pt-4">ACHIEVEMENTS</h2>
 <div id="assetline" class="">
     <div class="mjs-object-content"></div>
 </div>
-<div class="mx-auto py-auto">
+<div class="mx-auto pt-3">
     <div class="item">
         <div class="image">
             <div class="circular--landscape">

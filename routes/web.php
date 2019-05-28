@@ -24,7 +24,7 @@ Route::get('/timeline', function () {
 });
 
 Route::get('/people', function () {
-    return view('timeline');
+    return view('people');
 });
 
 Route::get('/contact-us', function () {
