@@ -1,6 +1,11 @@
 .people-img {
-    width: 5em;
-    height: 40em;
+    width: auto;
+    height: 20em;
+}
+
+.people1 {
+    width: 250px;
+    height: 250px;
 }
 
 @media only screen and (min-width: 992px) {
@@ -28,4 +33,8 @@
     font-weight: bold;
     padding: 0px;
     padding-top: 5px;
+}
+
+.card-radius {
+    border-radius: 48px;
 }

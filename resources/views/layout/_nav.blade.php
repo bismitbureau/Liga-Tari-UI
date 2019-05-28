@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('css/style.css') }}">
 
 <nav class="navbar navbar-light bg-white mb-0">
-  <a class="navbar-brand " href="#">
+  <a class="navbar-brand " href="/">
     <img src="img/ligtar1.png" class="mt-0" alt="">
   </a>
 

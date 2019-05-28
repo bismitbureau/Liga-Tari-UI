@@ -12,19 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('firstcarousel');
-});
-
+    return view('index');
+  });
 Route::get('/about', function () {
-    return view('firstabout');
+    return view('about');
 });
 
 Route::get('/timeline', function () {
     return view('timeline');
-});
-
-Route::get('/people', function () {
-    return view('people');
 });
 
 Route::get('/contact-us', function () {
@@ -33,9 +28,7 @@ Route::get('/contact-us', function () {
 
 // Route::get('/', 'PageController@index')->name('index');
 
-Route::get('/', function () {
-  return view('index');
-});
+
 
 Route::get('/gallery', function () {
   return view('gallery');

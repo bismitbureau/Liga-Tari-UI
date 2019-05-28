@@ -2,11 +2,11 @@
 
 @section('title', 'Homepage')
 
-@extends('firstcarousel')
+
 
 @section('content')
 
-<!-- @extends('firstcarousel') -->
+@extends('firstcarousel')
 
 
 @endsection
