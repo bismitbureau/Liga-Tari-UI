@@ -1,10 +1,9 @@
 <link rel="stylesheet" href="{{ asset('css/vendor/bootstrap.min.css') }}">
 <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('css/forhire.css') }}">
 
-<div class="container mt-2" >
+<div class="bg-biru mt-2" >
 
     <div class="row">
-
         <div class="col-md-4 mt-4">
             <div class="kotak">
                 <div class="row justify-content-md-center">
