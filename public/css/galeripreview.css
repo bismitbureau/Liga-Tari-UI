@@ -11,3 +11,23 @@
     background: url(../img/cekot.png) no-repeat;
     background-size: cover;
 }
+
+
+.overl{
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+}
+
+
+.kotak:hover .overl{
+    background: rgba(0, 0, 0, .3);
+    opacity: 1;
+}
+
+.btn{
+    transition: opacity .35s ease;
+}
+
+.kotak:hover .btn{
+    opacity: 1;
+}
