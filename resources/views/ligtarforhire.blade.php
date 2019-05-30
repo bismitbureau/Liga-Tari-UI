@@ -1,17 +1,19 @@
 <link rel="stylesheet" href="{{ asset('css/vendor/bootstrap.min.css') }}">
 <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('css/forhire.css') }}">
 
-<div class="bg-biru mt-2" >
+<div class="bg-biru mt-2 px-5" >
 
     <div class="row">
         <div class="col-md-4 mt-4">
             <div class="kotak">
-                <div class="row justify-content-md-center">
-                    <h3>Liga Tari For Hire</h3>
-                    <div id="persegi" ></div>
-                    <p>+62 877 93462282 (Via)</p>
-                    <p>+62 812 10246100 (Sheli)</p>
-                    <p>indonesia.kridabudaya@gmail.com</p>
+                <div class="isiKotak">
+                    <div class="col text-center">
+                        <h3>Liga Tari For Hire</h3>
+                        <div id="persegi" ></div>
+                        <p>+62 877 93462282 (Via)</p>
+                        <p>+62 812 10246100 (Sheli)</p>
+                        <p>indonesia.kridabudaya@gmail.com</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -38,32 +40,32 @@
                         <div class="carousel-item">
                             <div class="isiCarousel">
                                 <div class="col text-center">
-                                    <h3>Dwi Kartiningrum – British Petrolium Indonesia</h3>
-                                    <p>“Liga Tari klien langganan yang selalu memuaskan dan professional, ga pernah mengecewakan. Jangan pernah bosen ya terima job dari BP J”</p>
+                                    <h3>Deasy Yohana – Creative Director Global TV</h3>
+                                    <p>"Kesan pertamanya sangat memuaskan. Kami sangat berterima kasih bahwa kita bisa bekerjasama dengan baik dan bisa menunjukkan kepada seluruh masyarakat Indonesia bahwa bangsa kita merupakan bangsa yang kaya akan kebudayaan. Sekali lagi, Global TV sangat puas dengan Liga Tari UI karena kalian bisa mewujudkan konsep kami menjadi spektakuler”</p>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="isiCarousel">
                                 <div class="col text-center">
-                                    <h3>Dwi Kartiningrum – British Petrolium Indonesia</h3>
-                                    <p>“Liga Tari klien langganan yang selalu memuaskan dan professional, ga pernah mengecewakan. Jangan pernah bosen ya terima job dari BP J”</p>
+                                    <h3>Kompol Nb Darma, Sik – Koordinator HUT Brimob ke 66</h3>
+                                    <p>“TWO THUMBS UP TO LIGA TARI, May God Bless all of you…MERDEKA!!!!”</P>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="isiCarousel">
                                 <div class="col text-center">
-                                    <h3>Dwi Kartiningrum – British Petrolium Indonesia</h3>
-                                    <p>“Liga Tari klien langganan yang selalu memuaskan dan professional, ga pernah mengecewakan. Jangan pernah bosen ya terima job dari BP J”</p>
+                                    <h3>Dwi Handayani – Gateway Container Line Indonesia</h3>
+                                    <p>"Penampilannya bagus, cocok sebagai penghibur acara gathering, dan penarinya ‘connect’ meskipun terjadi kesalahan teknis. Jadi overall memuaskan dan bisa jadi referensi untuk nanti dipanggil lagi”</P>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="isiCarousel">
                                 <div class="col text-center">
-                                    <h3>Dwi Kartiningrum – British Petrolium Indonesia</h3>
-                                    <p>“Liga Tari klien langganan yang selalu memuaskan dan professional, ga pernah mengecewakan. Jangan pernah bosen ya terima job dari BP J”</p>
+                                    <h3>Joseph R. Viray – Chairman LakanDayang Cultural Association, Inc Philippines</h3>
+                                    <p>“Krida Budaya artists manifest highest degree of professionalism, creativity, artistry, and excellence. Working with them in the past was an experience of a lifetime”</P>
                                 </div>
                             </div>
                         </div>
