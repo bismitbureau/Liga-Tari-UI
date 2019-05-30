@@ -18,12 +18,24 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/timeline', function () {
-    return view('timeline');
+Route::get('/achievements', function () {
+    return view('achievements');
 });
 
 Route::get('/contact-us', function () {
     return view('contactus');
+});
+
+Route::get('/events', function () {
+    return view('events');
+});
+
+Route::get('/event-details', function () {
+    return view('event-details');
+});
+
+Route::get('/news', function () {
+    return view('news');
 });
 
 // Route::get('/', 'PageController@index')->name('index');

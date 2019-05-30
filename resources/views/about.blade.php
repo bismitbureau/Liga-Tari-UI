@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-
+    </div>
 
 </section>
 
@@ -168,5 +168,10 @@
             </div>
         </div>
     </div>
+
+</section>
+
+<section>
+    <h4><a href="/achievements" style="color: #20d0ff;">Temporary route to achievements</a></h4>
 
 </section>

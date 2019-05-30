@@ -17,7 +17,13 @@ h2 {
     margin-right: auto;
 }
 
-style="background-image: url('images/panah-judul.png'); z-index: 999; color: white; padding: 1em; overflow-y: hidden; background-repeat: no-repeat"
+background-image: url('images/panah-judul.png');
+z-index: 999;
+color: white;
+padding: 1em;
+overflow-y: hidden;
+background-repeat: no-repeat"
+
 /* .container{
     padding-left: 0px;
     padding-right: 0px;

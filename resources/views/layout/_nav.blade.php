@@ -17,8 +17,8 @@
       </a>
     </li>
     <li class="nav-item mr-2">
-      <a class="nav-link text-dark" href="#">
-        Blog
+      <a class="nav-link text-dark" href="/events">
+        Events
         <div id="kotak" class="ml-0 mr-1"></div>
       </a>
     </li>
