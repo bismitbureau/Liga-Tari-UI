@@ -6,31 +6,38 @@
   <a class="navbar-brand " href="/">
     <img src="img/ligtar1.png" class="mt-0" alt="">
   </a>
+  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button> -->
 
 <div class="mt-5">
   <ul class="nav justify-content-center mt-5">
-    <li class="nav-item mr-2 flex-collumn">
-      <a class="nav-link text-dark " href="/about">
-        About
-        <div id="kotak" class="ml-0 mr-1"></div>
-      </a>
+    <li class="nav-item dropdown mr-2 flex-collumn text-center">
+      <a class="nav-link text-dark dropdown-toggle" href="/about" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+          <div id="kotak" class="ml-0"></div>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item text-dark" href="/about">About Us</a>
+          <a class="dropdown-item text-dark" href="#">Achievements</a>
+        </div>
     </li>
-    <li class="nav-item mr-2">
+    <li class="nav-item mr-2 text-center">
       <a class="nav-link text-dark" href="#">
         Blog
-        <div id="kotak" class="ml-0 mr-1"></div>
+        <div id="kotak" class="ml-0"></div>
       </a>
     </li>
-    <li class="nav-item mr-2">
+    <li class="nav-item mr-2 text-center">
       <a class="nav-link text-dark" href="#">
       Gallery
-      <div id="kotak" class="ml-0 mr-1"></div>
+      <div id="kotak" class="ml-0"></div>
       </a>
     </li>
-    <li class="nav-item mr-2">
+    <li class="nav-item mr-2 text-center">
       <a class="nav-link text-dark" href="/contact-us">
       Contact
-      <div id="kotak" class="ml-0 mr-1"></div>
+      <div id="kotak" class="ml-0"></div>
       </a>
     </li>
   </ul>
@@ -50,5 +57,4 @@
       </button>
     </div>
   </div>
-
 </nav>
