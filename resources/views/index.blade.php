@@ -6,7 +6,10 @@
 
 @section('content')
 
+@extends('ligtarforhire')
 @extends('firstcarousel')
+
+
 
 
 @endsection

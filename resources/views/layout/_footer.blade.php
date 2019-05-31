@@ -1,51 +1,53 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('css/_footer.css') }}">
 
-<div class="bg-dark-grey" style="background: #102B3F; color:white;">
-    <div class="container-footer py-5">
-        <div class="footer-content px-5">
-            <div class="row pt-4 justify-content-between">
-                <div class="col-sm-6 col-md-2">
-                    <img src="{{ asset('images/logo.png') }}">
-                </div>
-                <div class="col-md-4">
-                    <h3 class="font-weight-bold">LTMUIKB</h3>
-                    <p>Pusat Kegiatan Mahasiswa UI,
-                        Jl. Prof. Dr. Fuad Hassan 16425, <br>
-                        Depok, Jawa Barat <br>
-                        UI Campus Depok, West Java 16424, Indonesia</p>
-                </div>
+<section style="display:block;">
+    <div class="bg-dark-grey" style="background: #102B3F; color:white;">
+        <div class="container-footer py-5">
+            <div class="footer-content px-5">
+                <div class="row pt-4 justify-content-between">
+                    <div class="col-sm-6 col-md-2" >
+                        <img src="{{ asset('img/logo.png') }}">
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="font-weight-bold">LTMUIKB</h3>
+                        <p>Pusat Kegiatan Mahasiswa UI,
+                            Jl. Prof. Dr. Fuad Hassan 16425, <br>
+                            Depok, Jawa Barat <br>
+                            UI Campus Depok, West Java 16424, Indonesia</p>
+                    </div>
 
-                <div class="col-sm-6 col-md-3">
-                    <h3 class="font-weight-bold">Links</h3>
-                    <ul class="list-unstyled">
-                        <a href="https://www.instagram.com/kridabudaya/"><img src="{{ asset('images/instagram.png') }}" class="socmed"></a>
-                        <a href="https://www.youtube.com/channel/UCgJzdrK4a9kosMM4T9MMEjA"> <img src="{{ asset('images/youtube.png') }}" class="socmed"></a>
-                        <a href="https://www.facebook.com/ligatarikridabudaya"> <img src="{{ asset('images/facebook.png') }}" class="socmed"> </a>
-                        <img src="{{ asset('images/twitter.png') }}" class="socmed">
-                    </ul>
-                </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3 class="font-weight-bold">Links</h3>
+                        <ul class="list-unstyled">
+                            <a href="https://www.instagram.com/kridabudaya/"><img src="{{ asset('img/instagram.png') }}" class="socmed"></a>
+                            <a href="https://www.youtube.com/channel/UCgJzdrK4a9kosMM4T9MMEjA"> <img src="{{ asset('img/youtube.png') }}" class="socmed"></a>
+                            <a href="https://www.facebook.com/ligatarikridabudaya"> <img src="{{ asset('img/facebook.png') }}" class="socmed"> </a>
+                            <img src="{{ asset('img/twitter.png') }}" class="socmed">
+                        </ul>
+                    </div>
 
 
-                <div class="col-md-3">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h3 class="font-weight-bold">Email</h3>
-                            <ul class="list-unstyled">
-                                <li><a href="mailto:indonesia.kridabudaya@gmail.com" target="_blank" style="color: #20d0ff;">indonesia.kridabudaya@gmail.com
-                                    </a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-12">
-                            <h3 class="font-weight-bold">Phone</h3>
-                            <ul class="list-unstyled">
-                                <li>+62 877 93462282 (Via)</li>
-                                <li>+62 812 10246100 (Sheli)</li>
-                            </ul>
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h3 class="font-weight-bold">Email</h3>
+                                <ul class="list-unstyled">
+                                    <li><a href="mailto:indonesia.kridabudaya@gmail.com" target="_blank" style="color: #20d0ff;">indonesia.kridabudaya@gmail.com
+                                        </a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-12">
+                                <h3 class="font-weight-bold">Phone</h3>
+                                <ul class="list-unstyled">
+                                    <li>+62 877 93462282 (Via)</li>
+                                    <li>+62 812 10246100 (Sheli)</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+                    <p>2019 © All rights reserved</p>
                 </div>
-                <p>2019 © All rights reserved</p>
             </div>
         </div>
     </div>
-</div>
+</section>

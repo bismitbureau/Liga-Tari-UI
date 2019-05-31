@@ -1,5 +1,7 @@
 @extends('layout.master')
-<link rel="stylesheet" type="text/css" href="{{ asset('css/timeline.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/achievements.css') }}">
+
+@section('content')
 
 <section>
     <h2 style="text-align: center" class="pt-4">ACHIEVEMENTS</h2>
@@ -10,7 +12,7 @@
         <div class="item">
             <div class="image">
                 <div class="circular--landscape">
-                    <img style="object-fit: cover" src="{{ asset('images/tari.jpg') }}">
+                    <img style="object-fit: cover" src="{{ asset('img/tari.jpg') }}">
                 </div>
             </div>
             <div class="details">
@@ -27,7 +29,7 @@
         <div class="item">
             <div class="image">
                 <div class="circular--landscape">
-                    <img style="object-fit: cover" src="{{ asset('images/tari.jpg') }}">
+                    <img style="object-fit: cover" src="{{ asset('img/tari.jpg') }}">
                 </div>
             </div>
             <div class="details">
@@ -43,7 +45,7 @@
         <div class="item">
             <div class="image">
                 <div class="circular--landscape">
-                    <img style="object-fit: cover" src="{{ asset('images/tari.jpg') }}">
+                    <img style="object-fit: cover" src="{{ asset('img/tari.jpg') }}">
                 </div>
             </div>
             <div class="details">
@@ -58,7 +60,7 @@
         <div class="item">
             <div class="image">
                 <div class="circular--landscape">
-                    <img style="object-fit: cover" src="{{ asset('images/tari.jpg') }}">
+                    <img style="object-fit: cover" src="{{ asset('img/tari.jpg') }}">
                 </div>
             </div>
             <div class="details">
@@ -77,7 +79,7 @@
         <div class="item">
             <div class="image">
                 <div class="circular--landscape">
-                    <img style="object-fit: cover" src="{{ asset('images/tari.jpg') }}">
+                    <img style="object-fit: cover" src="{{ asset('img/tari.jpg') }}">
                 </div>
             </div>
             <div class="details">
@@ -95,7 +97,7 @@
         <div class="item">
             <div class="image">
                 <div class="circular--landscape">
-                    <img style="object-fit: cover" src="{{ asset('images/tari.jpg') }}">
+                    <img style="object-fit: cover" src="{{ asset('img/tari.jpg') }}">
                 </div>
             </div>
             <div class="details">
@@ -111,7 +113,7 @@
         <div class="item">
             <div class="image">
                 <div class="circular--landscape">
-                    <img style="object-fit: cover" src="{{ asset('images/tari.jpg') }}">
+                    <img style="object-fit: cover" src="{{ asset('img/tari.jpg') }}">
                 </div>
             </div>
             <div class="details">
@@ -130,7 +132,7 @@
         <div class="item">
             <div class="image">
                 <div class="circular--landscape">
-                    <img style="object-fit: cover" src="{{ asset('images/tari.jpg') }}">
+                    <img style="object-fit: cover" src="{{ asset('img/tari.jpg') }}">
                 </div>
             </div>
             <div class="details">
@@ -143,3 +145,4 @@
         </div>
     </div>
 </section>
+@endsection

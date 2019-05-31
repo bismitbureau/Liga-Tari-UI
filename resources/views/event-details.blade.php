@@ -1,6 +1,7 @@
 @extends('layout.master')
 <link rel="stylesheet" type="text/css" href="{{ asset('css/event-details.css') }}">
 
+@section('content')
 
 <section class="mt-6 py-4">
 <h6 class="pt-4 ml-4"><a href="/events" style="color: #20d0ff;">Return</a></h6>
@@ -36,3 +37,4 @@
         </div>
     </div>
 </section>
+@endsection

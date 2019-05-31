@@ -1,38 +1,41 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('css/firstcarousel.css') }}">
-<!-- @section('title', 'Page Title') -->
 
 
-<section class="" style="margin-bottom: 3em;">
+<section class="mt-4 py-2" style="margin-bottom: 3em;">
 
-    <!--Carousel Wrapper-->
+
     <div id="carousel-1" class="carousel slide carousel-fade" data-ride="carousel">
-        <!--Indicators-->
+
         <ol class="carousel-indicators">
             <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-1" data-slide-to="1"></li>
             <li data-target="#carousel-1" data-slide-to="2"></li>
+            <li data-target="#carousel-1" data-slide-to="3"></li>
+            <li data-target="#carousel-1" data-slide-to="4"></li>
         </ol>
-        <!--/.Indicators-->
-        <!--Slides-->
+
         <div class="carousel-inner" role="listbox">
-            <!--First slide-->
+
             <div class="carousel-item active firstcarousel">
-                <img class="d-block w-100" src="{{ asset('images/dirgahayu.jpg') }}">
+                <a href=/news> <img class="d-block w-100" src="{{ asset('img/carousel1.jpg') }}"></a>
             </div>
-            <!--/First slide-->
-            <!--Second slide-->
+
             <div class="carousel-item firstcarousel">
-                <img class="d-block w-100" src="{{ asset('images/dirgahayu2.jpg') }}">
+                <a href=/news> <img class="d-block w-100" src="{{ asset('img/carousel2.jpg') }}"></a>
             </div>
-            <!--/Second slide-->
-            <!--Third slide-->
+
             <div class="carousel-item firstcarousel">
-                <img class="d-block w-100" src="{{ asset('images/dirgahayu3.jpg') }}">
+                <a href=/news> <img class="d-block w-100" src="{{ asset('img/carousel3.jpg') }}"></a>
             </div>
-            <!--/Third slide-->
+
+            <div class="carousel-item firstcarousel">
+            <a href=/news><img class="d-block w-100" src="{{ asset('img/carousel4.jpg') }}"></a>
+            </div>
+            <div class="carousel-item firstcarousel">
+            <a href=/news><img class="d-block w-100" src="{{ asset('img/carousel5.jpg') }}"></a>
+            </div>
         </div>
-        <!--/.Slides-->
-        <!--Controls-->
+
         <a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
@@ -41,9 +44,9 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-        <!--/.Controls-->
+
     </div>
-    <!--/.Carousel Wrapper-->
+
 </section>
 
 <section id="ai-center my-auto" class="py-5">
