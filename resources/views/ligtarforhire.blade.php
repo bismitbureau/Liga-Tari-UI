@@ -1,18 +1,19 @@
 <link rel="stylesheet" href="{{ asset('css/vendor/bootstrap.min.css') }}">
 <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('css/forhire.css') }}">
 
-<div class="bg-biru mt-2 px-5" >
-
+<section class="bg-biru">
+<div class="mt-4 px-5 py-2" style="display:block" >
     <div class="row">
         <div class="col-md-4 mt-4">
             <div class="kotak">
                 <div class="isiKotak">
                     <div class="col text-center">
                         <h3>Liga Tari For Hire</h3>
-                        <div id="persegi" ></div>
+                        <div id="persegi" class="my-3"></div>
                         <p>+62 877 93462282 (Via)</p>
                         <p>+62 812 10246100 (Sheli)</p>
                         <p>indonesia.kridabudaya@gmail.com</p>
+                        <p><a href="/contact-us" style="color: #20d0ff;">Contact Us</a></p>
                     </div>
                 </div>
             </div>
@@ -81,11 +82,6 @@
                 </div>
             </div>
         </div>
-
     </div>
-
 </div>
-
-
-
-
+</section>

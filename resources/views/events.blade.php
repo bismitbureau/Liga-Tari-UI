@@ -1,5 +1,9 @@
 @extends('layout.master')
+@section('title', 'Events')
 <link rel="stylesheet" type="text/css" href="{{ asset('css/events.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/news.css') }}">
+
+@section('content')
 
 <section class="mt-6 py-4">
     <h2 style="text-align: center" class="pt-4">EVENTS</h2>
@@ -14,6 +18,7 @@
             <div class="firstSection pt-5 px-4">
                 <div class="py-4 px-3">
                     <div class="row px-4 overflow-x-show">
+
                         <h2 class="date-title">30 May 2019</h2>
 
                         <p style="text-align: justify; color: black" class="py-4">Liga Tari Mahasiswa Universitas Indonesia Krida Budaya
@@ -24,11 +29,18 @@
                             <a href="/event-details" style="color: #20d0ff;">Read More</a>
                         </p>
 
-                    </div>
-                    <div id="assetline" class="">
-                        <div class="mjs-object-content"></div>
-                    </div>
+                        <!-- Single Blog Post -->
+                        <div class="col-12 col-sm-6">
+                                <div class="single-blog-post mb-50">
+                                    <!-- Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <a href="#"><img src="{{ asset('img/tari3.jpg') }}" alt=""></a>
+                                    </div>
 
+                                </div>
+                            </div>
+
+                    </div>
 
                 </div>
             </div>
@@ -36,3 +48,4 @@
 
     </div>
 </section>
+@endsection
