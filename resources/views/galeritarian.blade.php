@@ -13,9 +13,20 @@
 
         <div class="row">
 
+<<<<<<< HEAD
+        <div class="col-md mt-4">
+            <div class="kotak text-center">
+                <!-- <div class="col">
+                    <div class="overl">
+                        <h1>Tari Piring</h3>
+                        <button type="button" class="btn btn-warning">Galeri</button>
+                    </div>
+                </div> -->
+=======
             <div class="col-md mt-4">
                 <div class="kotak">
                 </div>
+>>>>>>> 9b9db34171ac1be0bdea4ce84745ce0eaba37c93
             </div>
 
             <div class="col-md mt-4">
