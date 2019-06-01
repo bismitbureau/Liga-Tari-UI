@@ -29,7 +29,7 @@
       </a>
     </li>
     <li class="nav-item mr-2 text-center">
-      <a class="nav-link text-dark" href="#">
+      <a class="nav-link text-dark" href="/gallery">
       Gallery
       <div id="kotak" class="ml-0"></div>
       </a>

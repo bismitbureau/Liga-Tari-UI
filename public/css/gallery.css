@@ -1,0 +1,14 @@
+.isiCarousel {
+    padding: 10px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.judulDaerah {
+    color: #20d0ff;
+    font-size: 27px;
+    padding: 0px;
+    padding-top: 5px;
+    text-align: center;
+}

@@ -12,7 +12,13 @@
     <div class="row">
 
         <div class="col-md mt-4">
-            <div class="kotak">
+            <div class="kotak text-center">
+                <!-- <div class="col">
+                    <div class="overl">
+                        <h1>Tari Piring</h3>
+                        <button type="button" class="btn btn-warning">Galeri</button>
+                    </div>
+                </div> -->
             </div>
         </div>
 
