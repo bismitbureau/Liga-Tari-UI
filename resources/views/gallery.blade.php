@@ -10,8 +10,9 @@
         <div class="mjs-object-content"></div>
     </div>
 
-    <div class="row">
-        <div class="col py-5 align-self-center">
+    <div class="row mb-5">
+
+        <div class="col-md-4 col-sm-12 py-5 mx-4 align-self-center">
             <div class="col my-4 justify-content-center text-center">
                 <button class="btn btn-outline-info text-dark my-1">Aceh</button>
                 <button class="btn btn-outline-info text-dark my-1">Bali</button>
@@ -40,14 +41,13 @@
         </div>
 
 
-        <div class="col">
-
+        <div class="col-md-7">
             <!--Photo carousel-->
-            <div class="card container mx-auto shadow mt-5" style="border-radius: 48px">
+            <div class="card container mx-auto shadow mt-5 mx-auto" style="border-radius: 48px">
                 <div class="firstSection mx-auto px-4 col-lg-12 py-3 px-2">
-                    <div class="row py-0 overflow-x-show">
-                        <h2 class="judulDaerah"><strong>DKI Jakarta</strong></h2>
+                    <div class="row py-0 overflow-x-show text-align-center">
                             <div id="carouselTestimony" class="carousel slide" data-ride="carousel">
+                                <h2 class="judulDaerah"><strong>DKI Jakarta</strong></h2>
                                 <ol class="carousel-indicators">
                                     <li data-target="#carouselTestimony" data-slide-to="0" class="active"></li>
                                     <li data-target="#carouselTestimony" data-slide-to="1"></li>

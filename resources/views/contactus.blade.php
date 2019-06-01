@@ -2,6 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="{{ asset('css/contactus.css') }}">
 
+@section('content')
 
 <section class="section-contact mt-4 pt-4" id="form1-4" data-rv-view="7288" style="overflow-x:hidden; margin:0">
 
@@ -60,3 +61,4 @@
 
 
 </section>
+@endsection

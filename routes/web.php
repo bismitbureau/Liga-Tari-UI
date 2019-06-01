@@ -14,25 +14,48 @@
 Route::get('/', function () {
     return view('index');
   });
+
+  Route::get('/firstcarousel', function () {
+    return view('firstcarousel');
+  });
+
 Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/timeline', function () {
-    return view('timeline');
+Route::get('/achievements', function () {
+    return view('achievements');
 });
 
 Route::get('/contact-us', function () {
     return view('contactus');
 });
 
+Route::get('/events', function () {
+    return view('events');
+});
+
+Route::get('/event-details', function () {
+    return view('event-details');
+});
+
+Route::get('/news', function () {
+    return view('news');
+});
+
+Route::get('/news-details', function () {
+    return view('news-details');
+});
+
+
+Route::get('/gallery', function () {
+    return view('gallery');
+  });
+
 // Route::get('/', 'PageController@index')->name('index');
 
 
 
-Route::get('/gallery', function () {
-  return view('gallery');
-});
 
 // Route::get('/hire', function () {
 //   return view('ligtarforhire');

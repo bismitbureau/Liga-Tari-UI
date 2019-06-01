@@ -1,11 +1,14 @@
 @extends('layout.master')
+@section('title', 'About')
 <link rel="stylesheet" type="text/css" href="{{ asset('css/firstabout.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('css/people.css') }}">
 
 
+@section('content')
+
 <section class="mt-6 py-4" style="background-color: #FDE25D">
     <div class="mb-4">
-        <h2 style="background-image: url('images/panah-judul.png'); z-index: 999; color: white; padding: 1em; overflow-y: hidden; background-repeat: no-repeat">LIGA TARI MAHASISWA
+        <h2 style="background-image: url('img/panah-judul.png'); z-index: 999; color: white; padding: 1em; overflow-y: hidden; background-repeat: no-repeat">LIGA TARI MAHASISWA
             UNIVERSITAS INDONESIA KRIDA BUDAYA</h2>
     </div>
     <div class="card container mx-auto my-auto shadow" style="border-radius: 48px">
@@ -32,7 +35,7 @@
                 </div>
             </div>
         </div>
-
+    </div>
 
 </section>
 
@@ -75,7 +78,7 @@
 
                 <div class="col-md-6 mx-auto px-auto py-5 order-1 order-md-2 ">
                     <div class="people1 mx-auto my-auto ">
-                        <img class="people-img" src="{{ asset('images/dibyo.jpg') }}" alt="Dibyo">
+                        <img class="people-img" src="{{ asset('img/dibyo.jpg') }}" alt="Dibyo">
                     </div>
                 </div>
             </div>
@@ -105,7 +108,7 @@
 
                 <div class="col-md-6 mx-auto px-auto py-5 order-1 order-md-2 ">
                     <div class="people1 mx-auto my-auto">
-                        <img class="people-img" src="{{ asset('images/tom.jpg') }}" alt="Tom">
+                        <img class="people-img" src="{{ asset('img/tom.jpg') }}" alt="Tom">
                     </div>
                 </div>
             </div>
@@ -134,7 +137,7 @@
 
                 <div class="col-md-6 mx-auto px-auto py-5 order-1 order-md-2 ">
                     <div class="people1 mx-auto my-auto">
-                        <img class="people-img" src="{{ asset('images/niniek.jpg') }}" alt="Niniek">
+                        <img class="people-img" src="{{ asset('img/niniek.jpg') }}" alt="Niniek">
                     </div>
                 </div>
             </div>
@@ -162,7 +165,7 @@
 
                 <div class="col-md-6 mx-auto px-auto py-5 order-1 order-md-2 ">
                     <div class="people1 mx-auto my-auto">
-                        <img class="people-img" src="{{ asset('images/Anusirwan.jpg') }}" alt="Anusirwan">
+                        <img class="people-img" src="{{ asset('img/Anusirwan.jpg') }}" alt="Anusirwan">
                     </div>
                 </div>
             </div>
@@ -170,3 +173,5 @@
     </div>
 
 </section>
+
+@endsection
